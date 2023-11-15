@@ -1,0 +1,18 @@
+
+query{
+    starship(starshipID:10){
+      name
+      length
+  		cargoCapacity
+    	starshipClass
+  },
+  planet(planetID:5){
+      name
+      diameter
+      climates
+  }
+  allFilms(first:2)
+  {
+    films{title}  
+  }  
+}

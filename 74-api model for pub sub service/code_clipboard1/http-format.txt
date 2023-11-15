@@ -1,0 +1,10 @@
+POST /v1.0/pubsub/topic HTTP/1.1
+HOST: api.pubsub.com
+Authorization: Bearer <JWT>
+X-API-Key: "API Key"
+Accept: */* //used to accept all type of content, language, encoding and formats.
+Content-Type: "application/json"
+Content-Length: xyz
+body: {
+   // details of topic to create
+}

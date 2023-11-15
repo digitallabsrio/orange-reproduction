@@ -1,0 +1,4 @@
+curl -X GET https://api.c3.com/v1.0/pubsub/product/list/{userID}
+-H "Host: api.c3.com"
+-H "Authorization: Bearer <JWT>"
+-H "Accept: */*"

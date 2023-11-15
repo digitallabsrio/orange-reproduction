@@ -1,0 +1,6 @@
+PUT /v1.0/payouts HTTP/2.0
+Host: api.stripe.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: <Length of the content>
+X-API-Key: "API Key"
+mount=1000&currency=usd&description=...

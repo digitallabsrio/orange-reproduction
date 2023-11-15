@@ -1,0 +1,46 @@
+HTTP/2.0 200 OK
+Content-Length: xyz
+Content-Type: application/json
+
+{
+  "agenda": "My Meeting",
+  "default_password": false,
+  "duration": 60,
+  "password": "123456",
+  "schedule": false,
+  "recurrence": {
+    ...    // details about recurring meetings
+  },
+  "settings": {
+    "data_center_regions": [
+      "TY"
+    ],
+    "allow_multiple_devices": true,
+    "approval_type": "automatic",
+    "audio": "VoIP",
+    "auto_recording": "cloud",
+    "contact_email": "jhon@example.com",
+    "contact_name": "John Miller",
+    "email_notification": true,
+    "encryption_type": "enhanced_encryption",
+    "host_video": true,
+    "join_before_host": false,
+    "meeting_authentication": true,
+    "meeting_invitees": [
+      {
+        "email": "email@example.com"
+        ...
+      }
+    ],
+    "mute_upon_entry": true,
+    "participant_video": false,
+    "private_meeting": false,
+    "waiting_room": false,
+    "watermark": false,
+    "host_save_video_order": true,
+    ...
+  },
+  "start_time": "2022-03-25T07:32:55Z",
+  "template_id": "Avx4YwdIVdTk+Z5un",
+  "timezone": "America/Los_Angeles",
+}

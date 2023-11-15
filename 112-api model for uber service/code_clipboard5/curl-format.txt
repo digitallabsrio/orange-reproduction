@@ -1,0 +1,10 @@
+curl -X PATCH https://api.uber.com/v1.0/trips/{tripID}
+-H "Host: api.uber.com "
+-H "Authorization: Bearer <JWT>"
+-H "Content-Type": "application/json"
+-H "Content-Length: xyz"
+-d {
+    "rideID": "eeyerti34",
+    "status": "In Progress",
+    ...
+    }

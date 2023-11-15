@@ -1,0 +1,63 @@
+type LeetCodeService
+{
+user_service 
+{
+   userID: string        // Unique ID of the authenticated user of LeetCode service
+   name: string          // Name of the user
+   email: string         // Email address of the user
+   username: string      // Username to be displayed in profile
+   password: string      // A unique hashed password to login to the LeetCode service
+   addedAt: timestamp    // The time at which user registered the service
+   updatedAt: timestamp  // The time at which the user updated details
+}
+problem_service 
+{
+   questionID: string    // The unique ID of the question/problem 
+   name: string          // The name or title of the question/problem
+   description: string   
+   questionText: string  // The actual text of the question/problem
+   testCases: list       // Test cases to evaluate the solution 
+   addedAt: timestamp    // The time at which the question/problem is added
+   updatedAt: timestamp  // The time at which the question/problem is updated
+   similarQuestions: list   // List of similar questions/problems to the searched topic
+   metadata: list        // Contains the metadata of the question
+   points: int           // The evaluation result (points) for each question/problem
+   difficultyLevel: string // The difficulty level of the question (easy, medium, hard)
+   enableRun: boolean    // If we want to execute the code or not
+}
+contest_service
+{
+   contestID: string     // The unique id of the contest
+   title: string         // The title of the contest
+   startTime: timestamp  // The time at which contest will start
+   endTime: timestamp    // The time at which contest will end
+   submissionID: string  // The submission ID of the code submitted for a contest
+   participantID: string // The unique ID of the participant linked with userID
+   questionID: string    // The unique ID for each of the questions in a contest
+   programmingLang: string // The language in which solution is provided
+   submittedCode: string // An attempted solution of the contest's question
+   submissionTime: timestamp // The time at which code is submitted
+}
+interview_service
+{
+   interviewID: string    // A unique ID of the interview
+   interviewerID: string  // A unique ID of the interviewer linked to userID
+   intervieweeID: string  // A unique ID of the interviewee linked to userID
+   interviewStartTime: timestamp  // Interview start time
+   interviewEndTime: timestamp // Interview end time
+   joinLink: string       // A link to connect users to Zoom service
+}
+discuss_service
+{
+    commentID: string     // This is the ID of the comment
+    userID: string        // This is the ID of the user posting the comment
+    topicID: string       // This is the unique ID of the topic
+    commentText: text     // This is the text of the comment
+    dateCreated: timestamp //This is the date and time on which the comment has been added
+    commentLink: hyperlink // This is the link of the comment
+    threadID: string      // Specify a comment for which replies should be retrieved.
+    replyingTo: string    // ID of the commenter to which the comment is posted             
+    maxResults: unsigned integer // The maximum number of comments to be retreived
+    pageToken: string     // A page ID from where comments to be fetched
+}
+}

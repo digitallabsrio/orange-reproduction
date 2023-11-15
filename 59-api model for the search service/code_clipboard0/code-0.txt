@@ -1,0 +1,13 @@
+type search 
+{
+    query: string            \\ This is the search term entered by the user
+    sort: string             \\ This is a name of field that needs to be sorted
+    order: string            \\ The sequence of results e.g. ascending or descending order
+    count: integer           \\ This represents the total number of results
+    pageNumber: integer 
+    limit: integer           \\ The maximum number of results displayed on a page
+    results: list            
+    recommendations: list    
+    adsSuggestions: list     
+    partialResponse: boolean \\ This flags the response to be partial due to processing timeout
+}

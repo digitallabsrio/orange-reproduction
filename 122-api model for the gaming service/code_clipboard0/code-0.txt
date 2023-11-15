@@ -1,0 +1,19 @@
+type game
+{
+    playerId: string        // ID of the player
+    gameMode: string        // Current game mode such as multiplayer, single player
+    tournaments: string     // Name of the ongoing tournament
+    matchId: string         // ID of the match being played
+    roomId: string          // ID of server the player is connected to
+    roomPermissions: list   // list of rules that are enforced to join the server
+    roomLimit: int          // Number of allowed players in a room
+    startURL: hyperlink     // URL to join the game server
+    team: list              // List of player IDs associated with a team
+    mapId: string           // ID of map for the current game session
+    playerLevel: int        // Game level the player is on
+    playerRank: string      // Rank of the player
+    avatarId: string        // ID of the avatar the player is using
+    inventory: list         // List of weapons, bullets, etc., the player is carrying
+    perks: list             // Lists special skills and assets the player has
+    defaults: list          // Default configurations set by the player
+}

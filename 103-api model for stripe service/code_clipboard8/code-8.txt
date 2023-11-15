@@ -1,0 +1,15 @@
+HTTP/2.0 200 OK 
+HOST: api.stripe.com
+Content-Type: application/json
+//body
+{
+  {
+  "Id": "chargeId",
+  "amount": 1000,
+  "created": 1594511920,
+  "currency": "USD",
+  "destinationID": "ID of bank or card",
+  "type": "bank or card"
+}
+  ...
+}

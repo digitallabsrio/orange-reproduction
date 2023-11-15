@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <p id="code-on-demand"></p>
+    <script>
+      try {
+        addalert("This is a javascript code!");
+        }
+      catch(err) {
+        document.getElementById("code-on-demand").innerHTML = err.message;
+        }
+    </script>
+    
+  </body>
+</html>

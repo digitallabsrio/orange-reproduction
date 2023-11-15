@@ -1,0 +1,22 @@
+HTTP/2.0 200 OK 
+HOST: api.stripe.com
+Content-Type: application/json
+//body
+{
+  "id": "chargeId",
+  "currency": "USD",
+  "description": null,
+  "creditcard_4digits": 1234,
+  "amount": 100,
+  "billing_info": {
+      "address":{
+        "country": "UK",
+        "city": "Manchester",
+        "zip_code": null
+      },
+      "email":"abc@email.com",
+      "name":"cutomer1234",
+      "mobile": "0012345678"   
+  },
+  ...
+}

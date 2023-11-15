@@ -1,0 +1,4 @@
+GET / HTTP/1.1
+Host: http://xyz.com // The server
+// Rest of the request
+Origin: http://abc.com // Origin of the request

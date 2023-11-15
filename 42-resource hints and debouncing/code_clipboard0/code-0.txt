@@ -1,0 +1,9 @@
+<!--prefetch-->
+<link rel="prefetch" href="/pages/next-page.html">
+<link rel="prefetch" href="<API endpoint>/newsstory1/newsvideo.mp4">
+
+<!--preload-->
+<link rel="preload" as="image" href="header-logo.svg">
+
+<!--preconnect-->
+<link rel="preconnect" href="https://api.our-amazing-api.com">

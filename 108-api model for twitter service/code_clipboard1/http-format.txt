@@ -1,0 +1,10 @@
+POST /v1.0/tweets HTTP/2
+HOST: api.twitter.com
+Authorization: Bearer <JWT>
+Content-Type: application/json
+Content-Length: xyz
+{
+   "userID": "us98432e",
+   "content": "Educative helps developers and their teams become more productive."
+   ...
+}

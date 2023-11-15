@@ -1,0 +1,10 @@
+curl -X POST https://api.twitter.com/v1.0/tweets
+-H "Host: api.twitter.com"
+-H "Authorization: Bearer <JWT>"
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-D {
+   "userID": "us98432e",
+   "content": "Educative helps developers and their teams become more productive."
+   ...
+}

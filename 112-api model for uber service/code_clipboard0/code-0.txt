@@ -1,0 +1,35 @@
+type Uber {
+
+    riderID: string           // A unique ID that represents a rider ID of the Uber user
+    riderName: string         // Name of the rider
+    driverName: string        // Name of the driver
+    email: string             // Email of the user (rider/driver)
+    timestamp: date           // The time user's account is created
+    contact: string           // Phone/mobile number of the rider or driver
+    vehicleID: string         // A unique ID for the vehicle 
+    profilePicture: string    // This is a profile image of the user
+    vehicleImage: string      // This is a image of the vehicle 
+    driverID: string          // A unique ID that represents a driver in the Uber system
+    driverMode: boolean       // Indicates whether the driver is active or not
+    driverLocation: string    // This is the address of the driver's current location
+    feedback: string          // This is the feedback from the rider/driver 
+    offset: integer           // Offset from where the results (e.g. ride history, user
+                              // feedback) should begin to be returned
+    limit: integer            // The maximum number of results to return
+    trips: list               // List of previous trips history
+    tripCount: integer        // Total number of trips that the user has made
+    tripStatus: string        // Trip status such as "In Progress", "Completed"
+    tripStartTime: DateTime   // This represents the start time of the trip
+    tripEndTime: DateTime     // This represents the end time of the trip
+    source: list              // Address of the pickup location
+    destination: list         // Address of the drop-off location
+    duration: DateTime        // The total time spent on the trip
+    distance: double          // The total distance covered during the trip
+    fare: double              // Fare of the trip
+    vehicles: list            // List of available vehicles 
+    vehicleName: string       // Name of the vehicle
+    tripID: string            // A unique ID that represents a trip 
+    rideRequestTime: string   // This represents the request time of the ride
+    seats: integer            // This represents the number of seats in the vehicle
+    driverDetails: list       // List of the driver and their vehicle details
+}

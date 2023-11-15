@@ -1,0 +1,5 @@
+GET /v1.0/gameplay/gs/matches/{startURL} HTTP/1.1
+Connection: Upgrade
+Host: api.game.com
+Upgrade: websocket
+Authentication: Bearer <JWT>

@@ -1,0 +1,5 @@
+HTTP/2 101 Switching Protocols
+Date: Tue, 13 Dec 2022 19:56:22 GMT
+Connection: Upgrade
+Server: messenger chat server
+Upgrade: websocket

@@ -1,0 +1,4 @@
+{   
+    "connection_id": "zglqWZt8l_7ZShrBAFTDKUgKihrE8Iob",
+    "source": { "latitude": 34.014061, "longitude": 20.87840 }
+}

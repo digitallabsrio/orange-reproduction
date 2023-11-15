@@ -1,0 +1,5 @@
+https://auth.testserver.com/authorize // The server URL
+?response_type=code //format of the response expected
+&client_id=432 //The id of the client machine
+&redirect_uri=https://client.usermachine.com/callback //The client URL
+&scope=images_write //The access being requested by the application

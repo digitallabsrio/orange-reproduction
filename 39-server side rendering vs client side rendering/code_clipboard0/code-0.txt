@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <h1>Educative</h1>
+    <p>This is a website of Educative. Here is the career page</p>
+    <a href="https://www.educative.io/careers">Link</a>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+type message
+{
+  senderId: string          // Represents a sender
+  receiverId: string        // Represents a receiver
+  groupId: string           // Represents a group
+  messageId: string         // A unique ID of a message
+  timestamp:  string        // The time when the message is created
+  attachment: boolean       // Shows whether the message has an attachment
+  attachmentURI: list       // Contains the path(s) to the attachment(s) in the Blob storage
+  messageText: string       // Shows text of the message
+  receivedServer: boolean   // Shows whether the message is sent to the server or not
+  delivered: boolean        // Shows whether the message is delivered to the receiver or not
+  read: boolean             // Shows whether the message is read by the receiver or not
+}

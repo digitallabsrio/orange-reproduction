@@ -1,0 +1,15 @@
+{
+  "connection_id": "rLCkwH/SKGAsO9H/ZShrBAFTDKU=",
+  "payload": [
+    {
+      "senderId"       : "Rtnukkald=",         
+      "receiverId"     : "IJUkalxUl=",                   
+      "messageId"      : "Pqwnkilsx=",         
+      "timestamp"      : "9:48PM 12-1-2023",            
+      "receivedServer" : true,            
+      "delivered"      : true,        
+      "read"           : true
+         
+   }
+  ]
+}

@@ -1,0 +1,17 @@
+type comment 
+{
+    commentID: string            \\ The ID of the comment
+    userID: string               \\ The ID of the user posting the comment
+    postID: string               \\ A unique ID of the post for which the comment has been added
+    commentText: text            \\ The text of the comment
+    timestamp: date              \\ The date and time on which the comment has been added.
+    commentLink: hyperlink       \\ The link of the comment
+    threadID: string             \\ Specify a comment for which replies should be retrieved.
+    replyingTo: string           \\ ID of the commenter to which the comment is posted             
+    maxResults: unsigned integer \\ The maximum number of comments to be retrieved in a request
+    pageToken: string            \\ An ID to identify a specific page
+    pageInfo:  object            \\ JSON object containing the page information
+    commentItems: list           \\ A list of comments that are retrieved
+    flag: boolean                \\ Specify whether to mark a comment as spam or not
+    flagCategory: text           \\ The reason to flag a comment.
+}

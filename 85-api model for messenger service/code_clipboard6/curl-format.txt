@@ -1,0 +1,4 @@
+curl -X GET https://api.messenger.com/v1.0/messages/{userID}?after_id={messageID}&limit={count}
+-H "X-API-Key: API Key"
+-H "Authorization: Bearer {JWT}"
+-H "Accept: application/json"

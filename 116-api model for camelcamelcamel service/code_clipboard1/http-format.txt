@@ -1,0 +1,13 @@
+POST /v1.0/pubsub/product HTTP/1.1
+HOST: api.c3.com
+Authorization: Bearer <JWT>
+X-API-Key: "API Key"
+Accept: */*
+Content-Type: application/json
+Content-Length: xyz
+{
+   "mode": "add product",
+   "product": "https://c3.com/product123", // the product to be added to the watch list
+   "trackPrice": "20.5", // the price at which user want a notification
+   "callBack": "https://user.com/userID" // it can be an email or a URL where notification is sent back
+}

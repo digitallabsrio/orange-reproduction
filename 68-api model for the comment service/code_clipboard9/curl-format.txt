@@ -1,0 +1,4 @@
+curl -X POST https://api.comment.com/v1.0/comments/{parametersList}
+-H "X-API-Key: API Key"
+-H "Authorization: Bearer {JWT}"
+-d {//data to flag a comment}

@@ -1,0 +1,5 @@
+GET /v1.0/timelines/users/userID HTTP/2
+HOST: api.twitter.com
+Authorization: Bearer <JWT>
+Accept: application/json
+Cookie: "A cookie"

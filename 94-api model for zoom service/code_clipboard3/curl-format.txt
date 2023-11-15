@@ -1,0 +1,9 @@
+curl -X POST https://api.zoom.com/v1.0/streams/mc/join?{joinURL}
+-H "Host: api.zoom.com"
+-H "X-API-Key: API Key"
+-H "Accept-Encoding: gzip, deflate, br"
+-H "Content-Length: xyz"
+-H "Cookies: vx4YwdIVd--AJnaSe7FLs"
+-d {
+    // payload
+}

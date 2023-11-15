@@ -1,0 +1,5 @@
+curl -X GET https://api.game.com/v1.0/gameplay/gs/matches/{startURL}
+-H "Connection: Upgrade"
+-H "Host: api.game.com"
+-H "Upgrade: websocket"
+-H "Authentication: Bearer <JWT>"

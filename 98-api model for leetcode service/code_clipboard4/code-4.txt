@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: "application/json"
+Content-Length: xyz
+{
+    {
+        "questionId": "123",
+        "title": "Binary search",
+        "difficulty": "medium",
+        "similarQuestions": "{question 1, question 2, . . .}",
+        "Testcases": "{[1,2,3],[4,5,6],...}",
+        "metaData": "{[expression: 20],[comments:30],...}",
+        "enableRunCode": true
+    },
+    {
+        //other problems
+    }
+}

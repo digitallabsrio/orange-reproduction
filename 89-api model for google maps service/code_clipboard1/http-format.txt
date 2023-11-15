@@ -1,0 +1,5 @@
+GET /v1.0/maps?{parametersList} HTTP/2
+Host: api.googlemaps.com
+X-API-KEY: "API Key"
+Accept: */*
+//other essential headers

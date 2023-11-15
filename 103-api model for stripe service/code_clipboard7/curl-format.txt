@@ -1,0 +1,9 @@
+curl https://api.stripe.com/v1.0/payouts
+-H "Host: api.stripe.com"
+-U "API Key"
+-D "amount=1000"
+-D "currency=usd"
+-D "source=tok_mastercard"
+-D "description=''"
+  ...
+  

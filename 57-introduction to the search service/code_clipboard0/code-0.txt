@@ -1,0 +1,12 @@
+{
+    "results":[
+        result 1,
+        result 2,
+        result 3,
+        .......
+        result N
+    ]
+    "Other_Details": "...",
+    "next-cursor": "15",
+
+}

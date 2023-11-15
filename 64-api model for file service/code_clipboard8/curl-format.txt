@@ -1,0 +1,3 @@
+curl -X GET https://cdn.provider.com/files/{fileId}
+-H "Host: cdn.provider.com"
+-H "Accept: image/png"

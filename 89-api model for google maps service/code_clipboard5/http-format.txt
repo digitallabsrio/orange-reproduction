@@ -1,0 +1,7 @@
+GET /v1.0/directions/ HTTP/2
+Connection: Upgrade
+Host: api.googlemaps.com
+Upgrade: websocket
+Sec-WebSocket-Key: sdnjmkowdd_eBsFeei7
+Authentication: token
+//essential headers

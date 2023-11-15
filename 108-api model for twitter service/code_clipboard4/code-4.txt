@@ -1,0 +1,8 @@
+HTTP/2 200 OK
+Content-Length: xyz
+Content-Type: application/json
+Cache-Control: max-age=x, must-revalidate
+//other headers
+{
+    body
+}

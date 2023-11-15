@@ -1,0 +1,9 @@
+POST /v1.0/streams/mc/start?{startURL} HTTP/2.0
+HOST: api.zoom.com
+Accept-Encoding: gzip, deflate, br
+API Key: "API Key"
+Content-Length: xyz
+Cookies: vx4YwdIVd--AJnaSe7FLs // Contains information like timezone, join link expiry, etc.
+{
+    payload    // Containing session description
+}

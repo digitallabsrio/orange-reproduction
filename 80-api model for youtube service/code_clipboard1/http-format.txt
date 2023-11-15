@@ -1,0 +1,4 @@
+GET /v1.0/videos/id=t_RSQBw7w1k HTTP/2
+HOST: api.youtube.com
+X-API-Key: "API Key"
+Accept: application/json

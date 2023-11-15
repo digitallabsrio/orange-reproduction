@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+//other essential headers
+{
+
+    "tripStartTime": "23456772",
+    "shareLink": "/v1.0/trips/share/essh98eYhn2k",
+    "accessToken": "<token>",
+    ...
+}

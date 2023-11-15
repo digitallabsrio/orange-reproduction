@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <style>
+            h2 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>
+    </head>
+
+    <body>
+        <h2>This is heading 2 center aligned.</h2>
+        <p>A simple text that is center aligned. </p>
+        <div> This is a section </div>
+    </body>
+</html>

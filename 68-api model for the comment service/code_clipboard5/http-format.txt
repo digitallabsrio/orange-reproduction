@@ -1,0 +1,5 @@
+DELETE /v1.0/comments/commentID HTTP/1.1
+HOST: api.comment.com
+X-API-Key: "API Key"
+Authorization: Bearer <JWT>
+// other headers

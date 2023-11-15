@@ -1,0 +1,8 @@
+curl -X POST https://api.example.com/v1.0/files
+-H "Host: api.example.com"
+-H "Authorization: Bearer <JWT>"
+-H "Content-Type: multipart/mixed;boundary={---xxBOUNDARYxx---}"
+-H "Content-Length: xyz"
+-D {
+   //data to upload a file
+}

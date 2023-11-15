@@ -1,0 +1,11 @@
+curl https://api.stripe.com/v1.0/charges
+-H "Host: api.stripe.com"
+-U "API Key"
+-H "Content-Type: application/x-www-form-urlencoded"
+-H "Content-Length: xyz"
+-d "amount=100"
+-d "currency=USD"
+-d "source=tok_mastercard"
+-d "description=''"
+  ...
+  

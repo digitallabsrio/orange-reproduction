@@ -1,0 +1,6 @@
+curl -X POST https://api.leetcode.com/v1.0/user/register
+-H "Host: api.leetcode.com"
+-H "Content-Type: application/json"
+-H "Authorization: Bearer <JWT>"
+-H "Content-Length: xyz"
+-D {...}

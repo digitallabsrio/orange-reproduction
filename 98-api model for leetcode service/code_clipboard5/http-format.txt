@@ -1,0 +1,9 @@
+POST /v1.0/contest/submit HTTP/1.1
+HOST: api.leetcode.com
+Authorization: Bearer <JWT>
+Content-Type: application/json
+Content-Length: xyz
+
+{
+   // data related to code submission such as userID, code, programmingLanguage etc.
+}

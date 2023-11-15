@@ -1,0 +1,14 @@
+{
+  "connection_id": "rLCkwH/SKGAsO9H/ZShrBAFTDKU=",
+  "payload": [
+    {
+      "senderId"       : "Rtnukkald=",         
+      "receiverId"     : "IJUkalxUl=",                   
+      "messageId"      : "Pqwnkilsx=",         
+      "timestamp"      : "9:47PM 12-1-2023",       
+      "attachment"    : false,     
+      "attachmentURI" : "",    
+      "messageText"    : "Hello, Welcome!"         
+   }
+  ]
+}

@@ -1,0 +1,7 @@
+curl -X GET https://api.zoom.com/v1.0/streams/mr/start/{startURL}?{configId}
+-H "Accept-Encoding: gzip, deflate, br"
+-H "Cache-Control: no-cache"
+-H "Connection: Upgrade"
+-H "Host: api.zoom.us"
+-H "Upgrade: websocket"
+-H "Authentication: token"

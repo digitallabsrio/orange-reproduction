@@ -1,0 +1,8 @@
+POST /v1.0/customerSession HTTP/2.0
+Host: api.stripe.com
+X-API-Key: "API Key"
+Authorization: Bearer <JWT>
+Content-Type: application/x-www-form-urlencoded
+Content-Length: xyz
+
+customerId={string}&urlSuccess=https://successURL.com&urlCancel=https://failureURL.com&charges={amount}&quantity=10&paymentMode=oneTime

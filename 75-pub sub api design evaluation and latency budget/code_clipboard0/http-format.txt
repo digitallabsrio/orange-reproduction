@@ -1,0 +1,16 @@
+POST /callBackURL HTTP/1.1
+HOST: api.pubsub.com
+
+body: {
+  "message": {
+    "attributes":
+    {
+      "topicID": 123abc,          //The ID of the topic for which event notification is sent
+      "eventDetails": "Details about the event"   // The details of the events
+      ...    // The list of attributes can go on
+    }                     
+  },
+  "eventId": aaa111,          // The unique ID of the event of a topic
+  "publishTime": "12:20:30"  // The time at which event was published to the pub-sub service
+}
+}

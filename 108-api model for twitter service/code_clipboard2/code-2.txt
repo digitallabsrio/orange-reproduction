@@ -1,0 +1,9 @@
+HTTP/2 201 Created
+Content-Length: xyz
+Content-Type: application/json
+//other headers
+{
+  "tweetID": "ee00dkie",
+  "content": "Educative helps developers and their teams become more productive."
+  ...
+}

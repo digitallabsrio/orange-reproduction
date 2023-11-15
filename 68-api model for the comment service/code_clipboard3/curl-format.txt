@@ -1,0 +1,6 @@
+curl -X PUT https://api.comment.com/v1.0/comments/commentID
+-H "X-API-Key: API Key"
+-H "Authorization: Bearer {JWT}"
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-d {//data to update a comment}

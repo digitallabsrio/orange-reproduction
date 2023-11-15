@@ -1,0 +1,5 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Methods: POST, GET
+Access-Control-Allow-Origin: http://abc.com
+//Rest of the response

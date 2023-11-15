@@ -1,0 +1,4 @@
+curl -X GET https://api.example.com/v1.0/files/{fileId}
+-H "Host: api.example.com"
+-H "Authorization: Bearer <JWT>"
+-H "Accept: */*"

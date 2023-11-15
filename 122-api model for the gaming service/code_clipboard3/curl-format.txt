@@ -1,0 +1,8 @@
+curl -X POST https://api.game.com/v1.0/zc/gameplay/matches/{matchId}
+-H "Host: api.game.com"
+-H "Authorization: Bearer <JWT>"
+-H "Content-Length: xyz"
+-H "Content-Type: application/json"
+-D {
+    // payload
+}

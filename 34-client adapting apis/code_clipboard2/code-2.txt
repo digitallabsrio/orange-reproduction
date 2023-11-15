@@ -1,0 +1,10 @@
+query{
+ location (name: seattle){
+       places
+       ratings
+  	   images
+  },
+  populartime (location: seattle){
+       timings
+    }
+}

@@ -1,0 +1,4 @@
+GET v1.0/matches?matchId={matchId}&startTime={timestamp} HTTP/1.1
+Accept: application/json
+HOST: api.game.com
+Authorization: Bearer <JWT>

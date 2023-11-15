@@ -1,0 +1,6 @@
+curl -X POST https://api.comment.com/v1.0/comments
+-H "X-API-Key: API Key"
+-H "Authorization: Bearer {JWT}"
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-d {//data to post a comment}

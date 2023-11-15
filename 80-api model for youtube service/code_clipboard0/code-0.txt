@@ -1,0 +1,22 @@
+type video 
+{
+ id: string            \\ This is the ID of the video.
+ publisherId: string   \\ This is the ID of the user who published the video.
+ channelId: string     \\ This is the unique ID of the channel that the video is associated to.
+ title: string         \\ This is the title of the video.
+ url: hyperLink        \\ This is the link of the video.
+ playlistId: list      \\ Specify the playlist(s) the video is associated with.
+ thumbnails: list      \\ List containing links to preview images of different chapters of video.            
+ next: hyperLink       \\ Link to next recommended video.
+ category: string      \\ Text describing niche/category of video.
+ description: string   \\ Text containing additional information about the video.
+ uploadTimeStamp: date \\ The date and time at which the particular video is uploaded.
+ preview: hyperLink    \\ This is the url of image/gif file to preview the video on hover.
+ fileSize: long        \\ Total size of a video file in bytes.
+ segments: list        \\ A list of urls of video/audio chunks of the video being streamed.
+ tags: list            \\ A list of keywords that help in better search for the video.
+ permissions: list     \\ This list describes the access privileges for this video.
+ qualities: list       \\ This is a list of available resolutions for a specific video.
+ ads: list             \\ A list of ad links to embed when the video is played.
+ statistics: list      \\ A list of values (likeCount,dislikeCount,viewCount,etc.) of this video.
+}

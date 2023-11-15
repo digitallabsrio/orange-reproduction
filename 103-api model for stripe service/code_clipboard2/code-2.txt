@@ -1,0 +1,11 @@
+HTTP/2.0 201 Created
+Date: Mon, 26 Dec 2022 11:12:14 GMT
+Content-Type: text/json
+{
+  "invoiceId": {string},
+  "customerId": {string},
+  "dueAmount": 100,
+  "paidAmount": 0,
+  "currency": "USD"
+//other essential parameters
+}

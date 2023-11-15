@@ -1,0 +1,11 @@
+curl -X POST https://api.c3.com/v1.0/pubsub/product
+-H "Host: api.c3.com"
+-H "X-API-Key: API Key"
+-H "Accept: */*"
+-H "Authorization: Bearer {JWT}"
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-D "mode: add product",
+-D "product: https://c3.com/product123", 
+-D "trackPrice: 20.5",
+-D "callBack: https://user.com/userID"

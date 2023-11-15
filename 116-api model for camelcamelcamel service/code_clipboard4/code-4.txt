@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: xyz
+
+{
+    body   // A list of products that are added in the watch list by a user
+}

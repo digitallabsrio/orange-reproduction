@@ -1,0 +1,4 @@
+GET /v1.0/pubsub/topic/{parameters} HTTP/1.1
+HOST: api.pubsub.com
+Accept: */* //used to accept all type of content, language, encoding and formats.
+X-API-Key: "API Key"

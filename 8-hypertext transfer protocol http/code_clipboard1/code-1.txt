@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Age: 264806
+Cache-Control: max-age=604800
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 16 Sep 2022 13:28:38 GMT
+Etag: "3147526947"
+Expires: Tue, 14 Feb 2023 13:21:35 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (dna/63AA)
+X-Cache: HIT
+Content-Length: 648

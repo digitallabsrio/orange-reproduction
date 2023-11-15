@@ -1,0 +1,26 @@
+{
+"messages": [
+     { 
+       "payload": [
+           {  //message-01
+              "senderId"       : "Rtnukkald=",        
+              "receiverId"     : "IJUkalxUl=",                   
+              "messageId"      : "Pqwnkilsx=",         
+              "timestamp"      : "9:47:30PM 12-1-2023",       
+              "attachment"    : true,     
+              "attachmentURI" : "/v1.0/asset/{id}",    
+              "messageText"    : "Hello, Welcome!"         
+          },
+         {   //message-02
+             "senderId"       : "alnukRtkald=",        
+             "receiverId"     : "IJUkalxUl=",                   
+             "messageId"      : "Xkilqwnsx=",         
+             "timestamp"      : "9:47:50PM 12-1-2023",       
+             "attachment"    : true,     
+             "attachmentURI" : "/v1.0/asset/{id}",    
+             "messageText"    : "Hi!"         
+        },
+       ...
+       //and so on.
+    ]}
+  }

@@ -1,0 +1,13 @@
+//Status code
+HTTP/1.1 200 OK
+//Headers
+Connection: close
+Date: Thu, 15 Sep 2022 13:22:33 GMT
+Server: Apache/2.2.3 (CentOS)
+Last-Modified: Thu, 15 Sep 2022 13:22:18 GMT
+Content-Length: <number of characters>
+Content-Type: application/json
+//Body
+{
+    data...
+}

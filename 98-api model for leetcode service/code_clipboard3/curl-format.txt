@@ -1,0 +1,5 @@
+curl -X GET https://api.leetcode.com/v1.0/problems/{parameters}
+-H "Host: api.leetcode.com"
+-H "Content-Type: application/json"
+-H "X-API-Key: api key"
+-H "Accept: */*"

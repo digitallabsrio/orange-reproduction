@@ -1,0 +1,11 @@
+HTTP/2 200 OK
+Host: api.messenger.com
+X-API-Key: "API Key"
+Authorization: Bearer <JWT>
+Content-Length: xyz
+Content-Type: application/json
+//other essential headers
+{
+    //body
+    //list of messages
+}

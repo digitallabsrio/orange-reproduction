@@ -1,0 +1,5 @@
+HTTP/2 101 Switching Protocols
+Connection: Upgrade
+Sec-WebSocket-Accept: zglqWZt8l_7ZShrBAFTDKUgKihrE8Iob
+Upgrade: websocket
+//essential headers

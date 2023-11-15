@@ -1,0 +1,11 @@
+curl -X POST https://api.pubsub.com/v1.0/pubsub/subscribe
+-H "X-API-Key: API Key"
+-H "Accept: */*"
+-H "Authorization: Bearer {JWT}"
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-d {
+    mode: "subscribe",
+    topic: "https://exampe.com/topicA",
+    callBack: "https://example.com/userID"
+}

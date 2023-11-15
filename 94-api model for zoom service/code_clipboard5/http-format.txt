@@ -1,0 +1,7 @@
+GET /v1.0/streams/mr/start/{startURL}?{configId} HTTP/2.0
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Connection: Upgrade
+HOST: api.zoom.com
+Upgrade: websocket
+Authentication: token

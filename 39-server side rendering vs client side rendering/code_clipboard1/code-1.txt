@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+</head>
+<body>
+  <div id="main"> </div>
+
+<script>
+  function loadpage() {
+    const element = (
+     <div>
+        <h1>Educative</h1>
+        <p> This is a website of Educative. Here is the career page </p>
+        <a href="https://www.educative.io/careers">Link</a>
+      </div>
+    );
+    ReactDOM.render(element,document.getElementById('main'));
+  }
+  setInterval(loadpage, 1000);
+</script>
+
+</body>
+</html>

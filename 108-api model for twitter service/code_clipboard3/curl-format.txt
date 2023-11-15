@@ -1,0 +1,5 @@
+curl -X GET https://api.twitter.com/v1.0/timelines/users/userID
+-H "Host: api.twitter.com"
+-H "Authorization: Bearer <JWT>"
+-H "Accept: application/json"
+-H "Cookie: A cookie"

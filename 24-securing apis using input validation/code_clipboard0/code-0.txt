@@ -1,0 +1,7 @@
+function emailValidation() {
+  let entity = example.forms["Form"]["email"].value;
+  if (entity == "") {
+    alert("E-mail is a required field");
+    return false;
+  }
+}

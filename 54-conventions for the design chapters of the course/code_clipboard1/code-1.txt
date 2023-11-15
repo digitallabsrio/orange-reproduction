@@ -1,0 +1,12 @@
+type comment 
+{
+    commentID: string            \\ The ID of the comment
+    userID: string               \\ The ID of the user posting the comment
+    postID: string               \\ A unique ID of the post for which the comment has been added
+    commentText: text            \\ The text of the comment
+    threadID: string             \\ Specify a comment for which replies should be retrieved.    
+    maxResults: unsigned integer \\ The maximum number of comments to be retrieved in a request
+    pageToken: string            \\ A page ID that identifies a page uniquely
+    pageInfo:  object            \\ An JSON object containing the page information
+    commentItems: list           \\ A list of comments that are retrieved
+}

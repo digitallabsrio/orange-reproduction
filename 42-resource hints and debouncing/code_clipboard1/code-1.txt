@@ -1,0 +1,2 @@
+<link rel="prefetch" href="/pages/next-page.html">
+<link rel="prefetch" href="<API endpoint>/homepage/newsvideo.mp4">

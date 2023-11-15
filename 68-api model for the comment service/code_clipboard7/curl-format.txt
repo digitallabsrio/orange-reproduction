@@ -1,0 +1,3 @@
+curl -X GET https://api.comment.com/v1.0/comments/commentID
+-H "X-API-Key: API Key"
+-H "Accept: application/json"

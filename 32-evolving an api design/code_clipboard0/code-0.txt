@@ -1,0 +1,8 @@
+POST /api/conversations.invite
+HOST slack.com
+Content-Type: application/json
+Authorization: Bearer xoxp-090078601-dff4qcbq1a
+{
+"channel":"C0QXV71JL",
+"users":["User1","User2", "User3"]
+}

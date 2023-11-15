@@ -1,0 +1,5 @@
+POST /v1.0/playback/videoId HTTP/2
+HOST: api.youtube.com
+Session-Id: "CE723ogExN"
+Accept-Type: application/json
+Content-Length: xyz 

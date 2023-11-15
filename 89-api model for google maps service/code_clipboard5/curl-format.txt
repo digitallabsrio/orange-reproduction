@@ -1,0 +1,6 @@
+curl -X GET https://api.googlemaps.com/v1.0/directions/
+-H "Accept-Encoding: gzip, deflate, br"
+-H "Connection: Upgrade"
+-H "Host: api.googlemaps.com"
+-H "Upgrade: websocket"
+-H "Authentication: token"

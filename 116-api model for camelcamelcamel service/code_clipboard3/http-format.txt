@@ -1,0 +1,4 @@
+GET /v1.0/pubsub/product/list/{userID} HTTP/1.1
+HOST: api.c3.com
+Authorization: Bearer <JWT>
+Accept: */*

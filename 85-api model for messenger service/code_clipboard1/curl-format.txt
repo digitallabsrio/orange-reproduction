@@ -1,0 +1,6 @@
+curl -X GET https://api.messenger.com/v1.0/chat?encoding=text
+-H "Origin: api.messenger.com"
+-H "Connection: Upgrade"
+-H "Sec-WebSocket-Key: cZvsuRouKjNol/bTtum5mw=="
+-H "Upgrade: websocket"
+-H "Sec-WebSocket-Version: 13"

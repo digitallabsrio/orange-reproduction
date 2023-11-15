@@ -1,0 +1,17 @@
+{
+    "$id": "https://dummywebsite.com/user.json"
+    "type": "object"
+    "properties":{
+        "username": {
+            "title": "Username"
+            "type": "string"
+            "maxlength": 15
+        },
+        "password": {
+            "title": "Password"
+            "type": "string"
+            "minlength": 5
+        },
+        // The rest of the object
+    }
+}

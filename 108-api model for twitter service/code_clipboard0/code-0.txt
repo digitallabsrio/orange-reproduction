@@ -1,0 +1,20 @@
+type twitter 
+{
+  userID: string               // User ID of the person who requests a timeline or posts tweets
+  profileImageUrl: hyperLink   // The profile image link of the tweet's author
+  userName: string             // Name of the tweet's author
+  screenName: string           // Name of the tweet's author without spaces, usually used for mentions
+  tweetID: string              // Tweet ID that is used to identify the tweet uniquely
+  createdAt: string            // The creation date of a tweet
+  content: string              // Text of the tweet
+  media: list                  // List of images or videos links a tweet(s) can have
+  place: string                // This shows tweet is geo tagged
+  replyCount: int              // Total number of replies on a tweet
+  retweetCount: int            // Total number of retweets on a tweet
+  rateCount: int               // Total number of likes on a tweet
+  entries: list                // This is the list of the tweets and promoted tweets
+  accounts: list               // This is the list of the accounts
+  trends: list                 // This is the list of the top N trends
+  count: string                // Total number of tweets that helps in pagination
+  next-cursor: string          // This parameter is used for pagination
+}

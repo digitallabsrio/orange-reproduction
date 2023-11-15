@@ -1,0 +1,15 @@
+{
+  "data": {
+    "seattle": {
+      "places": [ "Place-A","Place-B","Place-C","Place-D",...],
+      "ratings": [ "Place-A": 5,
+                  "Place-B": 4,
+                  "Place-C": 5, ...],
+      "images": ["Place-A": 10, "Place-B": 6, "Place-C": 3, ...],
+    },
+    "seattle": {
+      "timings": ["Place-A" : "6:00 pm - 11:00:pm", 
+                  "Place-B" : "8:00 pm - 11:00:pm", ....],                
+     }
+  }
+}

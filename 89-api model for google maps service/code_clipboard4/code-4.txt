@@ -1,0 +1,28 @@
+HTTP/2 200 OK
+Host: api.googlemaps.com
+Content-Length: xxx
+Content-Type: application/json
+//other essential headers
+{
+    "transportMode": "Car"
+    "source": { "latitude": 34.014057, "longitude": -118.2900641 },
+    "destination": { "latitude": 34.0091934, "longitude": -118.5063833 },
+    "duration": "19 mins",
+    "distance": "14.1 miles",
+    "polyline": "knjmEnjunUbKCfEA?_@]@kMBeE@qIIoF@wH@eFFk@WOUI_@?u@j@k@`@EXLTZHh@Y...."
+    steps:[
+             {
+
+
+                "distance": "1.4 miles",
+                "duration": "6 mins",
+                "source": { "latitude": 34.018106, "longitude": -118.290162 },
+                "htmlInstructions": "Turn left onto <b>Exposition Blvd<\b>",
+                "polyline": { "points": "eir~FdmlezuOdCEjBC" },
+                "destination": { "latitude": 34.0091934, "longitude": -118.5063833 },
+                "transportMode": "Car",
+            },
+           .........
+    ]
+   
+}

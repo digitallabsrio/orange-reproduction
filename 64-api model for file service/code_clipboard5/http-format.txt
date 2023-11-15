@@ -1,0 +1,4 @@
+GET /v1.0/files/{fileId} HTTP/1.1
+HOST: api.example.com
+Authorization: Bearer <JWT>
+Accept: */*

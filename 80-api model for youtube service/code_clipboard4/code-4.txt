@@ -1,0 +1,9 @@
+HTTP/2 200 OK
+ETag: "34aa387-d-1568"
+Accept-Ranges: bytes
+Content-Length: xyz
+Content-Type: video/mp4
+Cache-Control: private, max-age=20866
+{
+  body
+}

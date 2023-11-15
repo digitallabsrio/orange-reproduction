@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+//other headers
+{
+    "adsSuggestions": {
+         { "id": 1, "title": "value", "image" : "link" ....},
+         { "id": 2, "title": "value", "image" : "link" ...},
+}   

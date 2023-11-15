@@ -1,0 +1,22 @@
+type VisaCardValidation 
+{
+
+  //The following entities are usually sent in the request.
+  creditcardNumber: string        //credit card number 
+  cvc: string                    //CVC security code of the card
+  zipCode: string                 //Cardholder zip code
+  street: string                  //Street of the cardholder
+  city: string                    //City of the cardholder
+  country: string                 //Country of the cardholder
+  state: string                   //State of the cardholder
+  cardCurrencyCode: string        //Currency of the payment card
+  cardExpiryDate: string          //Card expiration date
+  cardHolderName: string          //Cardholder name
+
+  //The following entities are usually received in a request. 
+  requestID: string             // A unique ID assigned to each request
+  creditcardNumber: string            // Payment card number
+  isValid: bool                // To show whether the details provided to cards network are valid or invalid.
+  errorDescription: string      // Reason due to which card is invalid
+
+}

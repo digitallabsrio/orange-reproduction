@@ -1,0 +1,10 @@
+{
+  "playerId": "Q2tVukasWkalKd=oP",
+  "hashId": "466b7ccf81b94ed6c"
+  "eventCode": XXX,
+  "timestamp"    : "1672240262098", 
+  "eventData":
+  {       
+    ö±VDß?creàÍµ7I³~vúíDþj // binary data
+  }
+}

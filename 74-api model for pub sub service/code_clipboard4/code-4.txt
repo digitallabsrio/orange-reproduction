@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Type: "application/json"
+Content-Length: xyz
+body: {
+    {
+    "topicID": 123,
+    "topicName": "Topic A",
+    "publisherID": 111,
+    "canPublish": True,
+    "canSubscribe": True
+    },
+    {
+    "topicID": 124,
+    "topicName": "Topic B",
+    "publisherID": 112,
+    "canPublish": True,
+    "canSubscribe": True
+    },
+    {
+       ...
+    //details of other topic and list goes on.
+    }
+}

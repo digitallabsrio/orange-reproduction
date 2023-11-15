@@ -1,0 +1,18 @@
+type c3service 
+{
+   userID: string        \\ The unique identifier of a user
+   productID: string     \\ A unique identifier of a product such as ASIN
+   productName: string   \\ The name of the product a customer is searching for
+   category: string      \\ The category of the product i.e., health, kitchen etc.
+   country: string       \\ A country in which a client wants to buy a product 
+   query: string         \\ This is the keyword to search for a product
+   limit: integer        \\ Number of search results to return
+   results: list         \\ A list of objects containing search results
+   productURL: string    \\ The URL of the product to be add to the watch list
+   callBack: string      \\ The URL of the user where notifications are sent
+   watchTime: DateTime   \\ Represents the time after which subscription will expire
+   pricePeriod: DateTime \\ The period for which the price timeline is fetched
+   desiredPrice: double  \\ The desired price (in USD) at or below which user is notified
+   currentPrice: double  \\ This is the current price (in USD) of the product
+   availability: boolean \\ If the product is available or not
+}

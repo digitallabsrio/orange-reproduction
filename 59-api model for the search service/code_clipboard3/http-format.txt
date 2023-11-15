@@ -1,0 +1,5 @@
+GET /v1.0/recommendations/query={string} HTTP/1.1
+HOST: api.search.com 
+Accept: application/json
+X-API-KEY: "API Key"
+//other headers

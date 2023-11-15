@@ -1,0 +1,20 @@
+type pubsub 
+{
+   subscriberID: string     // Unique identifier for each subscriber
+   publisherID: string      // Unique identifier for each publisher
+   topic: string            // URL or address of the topic to subscribe or unsubscribe
+   topicID: string          // Unique identifier for the created topic in pub-sub
+   topicName: string        // Name of the topic created by a publisher
+   topicDescription: string // The description of the topic
+   canPublish: boolean      // A parameter defining whether a publisher can publish events or not
+   canSubscribe: boolean    // A parameter defining if topic is allowed to be subscribed
+   pageNumber: integer      // Indicating page numbers of listed data
+   limit: integer           // The maximum number of results per page           
+   eventID: string          // A unique identifier of an event
+   eventDetails: string     // Details or description of the event
+   mode: string             // defining mode of the request "subscribe"/"unsubscribe"
+   callBack: string         // URL of the subscriber where pub-sub pushes notifications
+   authToken: string        // A unique token to authenticate user
+   timeStamp: DateTime      // Time for subscription for limited time subscriptions
+   timeOut: DateTime        // Time indicating the failure of the request
+}

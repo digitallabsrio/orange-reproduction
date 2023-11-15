@@ -1,0 +1,4 @@
+GET /v1.0/meetings/join?{meetingURL}&pwd={password} HTTP/2.0
+HOST: api.zoom.com
+X-API-Key: "API Key" 
+Accept-Encoding: gzip, deflate, br

@@ -1,0 +1,8 @@
+POST /v1.0/gameplay/zc/matches/{matchId} HTTP/1.1
+HOST: api.game.com
+Authorization: Bearer <JWT>
+Content-Type: application/json
+Content-Length: xyz
+{
+    payload
+}

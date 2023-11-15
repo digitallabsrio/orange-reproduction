@@ -1,0 +1,18 @@
+type message
+{
+  hostId: string            // ID of the meeting host
+  meetingId: string         // ID of the meeting
+  joinURL: hyperlink        // Link to join the meeting
+  pwd: string               // Password to join the meeting
+  registrantId: string      // ID of the attendees
+  recordingId: string       // ID of the recordings, if any
+  recordingCount: integer   // Number of recordings made in a meeting, For example if we have
+                            // multiple intermittent re-encodings during a long meeting
+  startURL: hyperlink       // The URL for starting a stream
+  startTime: date           // The starting time for scheduled meetings
+  expiry: integer           // Expiration time for the meeting invite links
+  firstName: string         // First name of the participant
+  meetingInvitees: list     // List of attendees expected to join the meeting
+  privileges: list          // List of permissions allowed to the participant
+  sessionInfo: object       // An SDP object to share session information of participants
+}

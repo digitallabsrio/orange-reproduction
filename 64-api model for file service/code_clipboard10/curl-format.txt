@@ -1,0 +1,2 @@
+curl -X DELETE https://api.example.com/v1.0/files/{fileId}
+-H "Authorization: Bearer <JWT>"

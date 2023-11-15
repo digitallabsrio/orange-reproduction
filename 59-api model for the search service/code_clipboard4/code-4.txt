@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+//other headers
+{
+   "recommendations": {
+         { "id": 1, "querytitle": "value", "link" : "value"},
+         { "id": 2, "querytitle": "value", "link" : "value"},
+         { "id": 3, "querytitle": "value", "link" : "value"},
+         { "id": 4, "querytitle": "value", "link" : "value"},
+         { "id": 5, "querytitle": "value", "link" : "value"},
+    }
+}   

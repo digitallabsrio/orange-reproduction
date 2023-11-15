@@ -1,0 +1,82 @@
+HTTP/2 200 OK
+ETag: "34aa3868eb00"
+Accept-Ranges: bytes
+Content-Length: xyz
+Content-Type: application/json
+
+{
+  "id": "t_RSQBw7w1k",
+  "title": "Welcome to Educative",
+  "description": "Discover how Educative can help you learn.",
+  "channelId": "UCXkVkpFJSQstdaGBYx-cn-Q",
+  "metadata":{ // Contain information such as length, category, tags, etc., about the video
+      "thumbnails": [ ... ],
+      "categoryId": "pFJRSQSQs7w"
+      "uploadTimeStamp": "",
+      "tags": [...],
+      "content-details": [
+        {
+          "length": "40.5",
+          "language": "English",
+          "location": "en",      
+        }
+      ],
+      "statistics": [
+        "viewCount": "3057",
+        "likeCount": "25",
+        "dislikeCount": "0",
+        "favoriteCount": "17",
+        "commentCount": "12"
+      ]
+       ...
+  },
+  "media":{ // Contain details about all types of media objects such as audio, video, subtitles, etc.
+    "width": 900,
+    "height": 600,
+    "number-of-segments": 5,
+    "segments":[
+      {
+        "init": 0,
+        "end": 7.4,
+        "urn": "/../../segment-id-1",
+      },
+      {
+        "init": 7.4,
+        "end": 18.0,
+        "urn": "/../../segment-id-2",
+      },
+       ... ,
+      {
+        "init": 31.9,
+        "end": 40.5,
+        "urn": "/../../segment-id-5",
+      }
+    ],
+    "video": [ // Contain information about all the segments of the video
+      {
+        "segmentID": "segment-id-1",
+        "codec":  "avc1.64001F",
+        "format": "mp4",
+        "mime_type": "video/mp4",
+        "url":"/../../segment-id-1.mp4?range=..."
+      },
+      {
+        "segmentId": "segment-id-2",
+        "codec":  "avc1.64001F",
+        "format": "mp4",
+        "mime_type": "video/mp4",
+        "url":"/../../segment-id-2.mp4?range=..."
+      },
+       ... ,
+      {
+        "segmentId": "segment-id-5",
+        "codec":  "avc1.64001F",
+        "format": "mp4",
+        "mime_type": "video/mp4",
+        "url":"/../../segment-id-5.mp4"
+      }
+    ],
+    "audio": [...],
+     ...
+  }
+}

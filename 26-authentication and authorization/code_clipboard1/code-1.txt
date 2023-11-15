@@ -1,0 +1,7 @@
+{
+  "sub": "user1", // Subject
+  "name": "Johnny",
+  "iss": "https://exampleissuer.com/", // Issuer
+  "exp": 6473975421 // Expiration in seconds
+  ... // Rest of the payload
+}

@@ -1,0 +1,11 @@
+curl -X POST https://api.uber.com/v1.0/rides
+-H "Host: api.uber.com "
+-H "Accept: application/json"
+-H "Content-Type: application/json"
+-H "Authorization: Bearer <token>"
+-d {
+    "source": "xxxxx",
+    "destination": "xxxxx",
+    "riderID": "0000",
+    ...
+    }

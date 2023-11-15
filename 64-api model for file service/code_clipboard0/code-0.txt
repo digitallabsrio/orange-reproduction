@@ -1,0 +1,14 @@
+type file
+{
+    fileId: string      // Unique identifier of a file on the host system
+    ownerId: string     // Unique identifier of a user on the host system
+    authToken: string   // Token verifying the authenticity and privileges of the user
+    checksum: string    // Hash value verifying the integrity of data
+    fileLink: string    // The URI of the stored the file contents
+    userList: list      // A list of users with the specified permissions to access the resource
+    timeStamp: date     // The data and time at which the particular file is uploaded
+    fileTitle: string   // The name/title of the file along with its extension
+    fileSize: long      // Total size of a file in bytes
+    content: binary     // The actual content of a file being transferred
+    mimeType: *         // file format or extension of the file such as png, jpeg, mp3, mkv, etc.
+}

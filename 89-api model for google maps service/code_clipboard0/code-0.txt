@@ -1,0 +1,14 @@
+type maps 
+{
+    mapTiles: list         //This is the array of the image links and their associated IDs
+    placeInformation: list //This is a list of the search location attributes
+    source: string         //This is the address of the starting point
+    destination: string    //This is the address of the ending point
+    stops: list            //This list contains the information of the stops 
+    userLocation: string   //This is the address of the user's current location
+    distance: string       //The distance between the origin and destination
+    duration: string       //The total time required to reach the destination
+    steps: list            //This is the list of the steps required to reach the destination 
+    polyline: string       //This represent the route information in the form of a line on the map
+    transportMode: string  //This defines the transportation mode such as car, bus, bike, etc.
+}

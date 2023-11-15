@@ -1,0 +1,6 @@
+GET /v1.0/messages/{userID}?after_id={messageID}&limit={count} HTTP/2.0
+Host: api.messenger.com
+X-API-Key: "API Key"
+Authorization: Bearer <JWT>
+Accept: application/json
+//other essential headers

@@ -1,0 +1,10 @@
+PATCH /v1.0/trips/{tripID} HTTP/1.1
+HOST: api.uber.com
+Authorization: Bearer <JWT>
+Content-Type: application/json
+Content-Length: xyz
+// other essential headers
+{
+    "rideID": "eeyerti34",
+    "destination": "newaddress"
+}

@@ -1,0 +1,5 @@
+"location": {
+      "places": "14",
+      "ratings: "5",   
+      "images": "3"
+}

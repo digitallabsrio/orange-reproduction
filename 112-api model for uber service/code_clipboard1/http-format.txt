@@ -1,0 +1,12 @@
+POST /v1.0/rides HTTP/1.1
+HOST: api.uber.com 
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer <token>
+//other headers
+{
+    "source": "xxxxx",
+    "destination": "xxxxx",
+    "riderID": "0000",
+    ...
+}

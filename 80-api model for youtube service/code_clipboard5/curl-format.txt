@@ -1,0 +1,5 @@
+curl -X POST https://api.youtube.com/v1.0/playback/videoId
+-H "Host: api.youtube.com"
+-H "Session-Id: CE723ogExN"
+-H "Accept-Type: application/json"
+-H "Content-Length: xyz" 

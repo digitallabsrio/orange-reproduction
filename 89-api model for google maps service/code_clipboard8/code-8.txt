@@ -1,0 +1,6 @@
+{
+    "connection_id": "zglqWZt8l_7ZShrBAFTDKUgKihrE8Iob",
+    "transportMode": "Car",
+    "duration": "19 min",
+    "distance": "14.1 miles"
+}

@@ -1,0 +1,8 @@
+HTTP/2 200 OK
+Host: api.googlemaps.com
+Content-Length: xxx
+Content-Type: image/png
+//other essential headers
+{
+     body
+}

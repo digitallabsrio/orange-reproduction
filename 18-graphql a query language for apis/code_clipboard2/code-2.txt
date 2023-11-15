@@ -1,0 +1,27 @@
+{
+  "data": {
+    "starship": {
+      "name": "Millennium Falcon",
+      "length": 34.37,
+      "cargoCapacity": 100000,
+      "starshipClass": "Light freighter"
+    },
+    "planet": {
+      "name": "Dagobah",
+      "diameter": 8900,
+      "climates": [
+        "murky"
+      ]
+    },
+    "allFilms": {
+      "films": [
+        {
+          "title": "A New Hope"
+        },
+        {
+          "title": "The Empire Strikes Back"
+        }
+      ]
+    }
+  }
+}

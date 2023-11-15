@@ -1,0 +1,55 @@
+type StripeServices {
+
+customerService
+ {
+    customerId: string         // A unique ID that represents a customer
+    name: string               // Name of the customer
+    address: string            // Address of the customer
+    email: string              // Email of the customer
+    cardNumber: string         // Credit or debit card number of the customer
+    description: string        // A list that contains other relevant information
+    balance: double            // Represents balance in the customer account
+    currency: string           // Three-letter ISO code for the currency (USD, EUR, etc.)
+    timestamp: date            // The time the resource is created
+    contact: string            // Phone/mobile number of the customer
+ }
+
+sessionService
+ {
+    sessionId: string          // An ID that represents a session uniquely
+    paymentMode: string        // The mode of payment (one time or periodic)
+    urlSuccess: url            // A URL for redirection on successful transaction
+    urlCancel: url             // A URL for redirection on a failured transaction
+    charges: double            // The charges to be paid by the customer
+    quantity: integer          // The number of purchased items 
+    shippingInfo: string       // Shipping details of the customer
+ } 
+
+invoicesService
+ {
+    invoiceId: string           // A unique ID of the invoice
+    applicationCharges: double  // The service charges by the application
+    tax: double                 // Tax that the customer needs to pay
+    currency: string            // Three-letter ISO code for currency
+    description: string         // A list with other information on the invoice
+    dueAmount: double           // The amount the customer needs to pay
+    paidAmount: double          // The amount paid by the customer
+ }
+
+chargesService
+ {
+    chargeId: string            // A unique ID of the charge
+    currency: string            // Three-letter ISO code for currency
+    creditcardToken: string     // Credit card token representing card details
+    amount: double              // The amount needs to be charged from the credit card
+    billing_info: object        // An object with user information required for payment processing
+ }
+  
+payoutService
+ {
+    payoutId: string            // A unique ID of the payout
+    created: unix second        // The creation time of the payout
+    destinationID: string       // The ID of the desitination where the payout is to be sent
+    type: string                // Represents type of the destination, i.e., bank or card
+ }
+}

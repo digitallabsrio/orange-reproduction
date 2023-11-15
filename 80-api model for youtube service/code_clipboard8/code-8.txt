@@ -1,0 +1,9 @@
+HTTP/2 200 OK
+ETag: "1663651003615"
+Accept-Ranges: bytes
+Content-Length: xyz
+Content-Type: image/webp
+Cache-Control: public, max-age=21600
+{
+  body
+}

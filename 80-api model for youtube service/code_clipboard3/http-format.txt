@@ -1,0 +1,5 @@
+GET /v1.0/playback?vidSegId=woANBZdWuC&range=... HTTP/2
+HOST: api.youtube.com
+X-API-Key: "API Key"
+Accept: */*
+Accept-Encoding: gzip, deflate, br

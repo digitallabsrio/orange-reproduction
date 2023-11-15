@@ -1,0 +1,6 @@
+GET /v1.0/chat?encoding=text HTTP/2.0
+Origin: api.messenger.com
+Connection: Upgrade
+Host: messenger.com
+Upgrade: websocket
+Sec-WebSocket-Version: 13

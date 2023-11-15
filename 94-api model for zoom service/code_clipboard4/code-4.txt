@@ -1,0 +1,8 @@
+HTTP/2.0 302 Redirect
+server: zoom
+Content-Length: xyz
+Content-Type: application/json
+Location: /streams/mr/start/{startURL}?{configId}
+{
+    body
+}

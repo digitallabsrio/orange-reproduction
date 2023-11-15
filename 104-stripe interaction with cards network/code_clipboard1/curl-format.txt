@@ -1,0 +1,16 @@
+curl -X POST https://api.visa.com/pav/v1/cardvalidation
+-H "Content-Type: application/json"
+-H "Content-Length: xyz"
+-d '{
+    "paymentCardLastDigits": 0123,
+    "cvc": 000,
+    "zipCode": 99951,
+    "street": "cardholder street",
+    "city": "cardholder city" ,
+    "country": "cardholder country",
+    "state": "cardholder state",
+    "cardCurrencyCode": "usd",
+    "cardExpiryDate": "01-11-2023",
+    "cardHolderName": "name",
+    ...
+}'

@@ -1,0 +1,4 @@
+curl -X GET https://api.zoom.com/v1.0/meetings/join?{meetingURL}&pwd={password}
+-H "Host: api.zoom.com"
+-H "X-API-Key: API Key"
+-H "Accept-Encoding: gzip, deflate, br"

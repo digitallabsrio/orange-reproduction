@@ -1,0 +1,4 @@
+curl -X GET https://api.game.com/v1.0/matches?matchId={matchId}&startTime={timestamp}
+-H "Accept: application/json"
+-H "Host: api.game.com"
+-H "Authorization: Bearer <JWT>"

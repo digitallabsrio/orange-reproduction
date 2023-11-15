@@ -1,0 +1,4 @@
+curl -X GET https://api.youtube.com/v1.0/videos/id=t_RSQBw7w1k
+-H "Host: api.youtube.com"
+-H "X-API-Key: API Key"
+-H "Accept: application/json"

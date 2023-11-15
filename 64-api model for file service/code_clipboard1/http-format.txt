@@ -1,0 +1,8 @@
+POST /v1.0/files HTTP/1.1
+HOST: api.example.com
+Authorization: Bearer <JWT>
+Content-Type: multipart/mixed;boundary={---xxBOUNDARYxx---}
+Content-Length: xyz
+{
+   body
+}

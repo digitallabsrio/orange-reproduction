@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Jan 2023 08:02:11 GMT
+Content-Type: application/json
+Content-Lenght: xyz
+{
+  "requestID": "ID of the request"         
+  "creditcardNumber": "Credit card number"          
+  "isValid": true or false
+  "errorDescription": "error details if isValid is false otherwise null" 
+}

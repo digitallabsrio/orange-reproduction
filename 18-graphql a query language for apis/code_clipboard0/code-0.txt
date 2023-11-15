@@ -1,0 +1,4 @@
+https://swapi.dev/api/people/13/
+https://swapi.dev/api/people/14/
+https://swapi.dev/api/people/25/
+https://swapi.dev/api/people/31
